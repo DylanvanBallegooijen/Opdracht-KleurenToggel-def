@@ -1,0 +1,80 @@
+.toggle-btn-nav {
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .toggle-btn-nav img {
+    width: 30px;
+  }
+  
+  .toggle-btn-nav :hover {
+    opacity: 0.5;
+  }
+  
+  .nav-sidebar {
+    display: block;
+    width: 250px;
+    position: fixed;
+    left: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    z-index: 1000;
+    
+  }
+  
+  .nav-sidebar ul {
+    padding-left: 0;
+    background-color: #d3d3d3;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    z-index: 1000;
+    
+    
+    
+  }
+  
+  .nav-sidebar ul li {
+    margin: 5px 0;
+    list-style: none;
+    border: 1px solid #999;
+    
+   
+  }
+  
+  .nav-sidebar ul li:nth-child(1):hover {
+    background-color: #fff;
+  }
+  
+  .nav-sidebar ul li:nth-child(2):hover {
+    background-color: #ff0000;
+  }
+  
+  .nav-sidebar ul li:nth-child(3):hover {
+    background-color: #ffa500;
+  }
+  
+  .nav-sidebar li:nth-child(4):hover {
+    background-color: #800080;
+  }
+  
+  .nav-sidebar ul li:nth-child(5):hover {
+    background-color: #008000;
+  }
+  
+  .nav-sidebar ul li a {
+    height: 60px;
+    padding-left: 10px;
+    line-height: 60px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    z-index: 1000;
+    opacity: 0;
+   
+  }
+  
+  
+  /*# sourceMappingURL=style.css.map */

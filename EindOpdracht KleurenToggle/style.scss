@@ -1,0 +1,58 @@
+@import "./variables";
+
+
+.toggle-btn {
+  cursor: pointer;
+  & img {
+    width: 40px;
+  }
+  & :hover {
+    opacity: 0.5;
+  }
+}
+
+.main-nav {
+  display: block;
+  width: 250px;
+  position: fixed;
+  left: 0;
+  visibility: hidden;
+  transition: all 0.2s linear;
+  z-index: 1000;
+  & ul {
+    padding-left: 0;
+    background-color: $home-color;
+    transition: all 0.2s linear;
+    z-index: 1000;
+    & li {
+      margin: 5px 0;
+      list-style: none;
+      border: 1px solid $nav-a-border;
+      &:nth-child(1):hover {
+        background-color: $first-color;
+      }
+      &:nth-child(2):hover {
+        background-color: $second-color;
+      }
+      &:nth-child(3):hover {
+        background-color: $third-color;
+      }
+      &:nth-child(4):hover {
+        background-color: $fourth-color;
+      }
+      &:nth-child(5):hover {
+        background-color: $fifth-color;
+      }
+      & a {
+        height: 60px;
+        padding-left: 10px;
+        line-height: 60px;
+        display: block;
+        text-decoration: none;
+        color: $text-color;
+        transition: all 0.2s linear;
+        z-index: 1000;
+      }
+    }
+  }
+}
